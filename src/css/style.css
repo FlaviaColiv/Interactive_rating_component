@@ -2,6 +2,7 @@
 @import url('./global.css');
 
 body {
+    color: white;
     background: var(--very-dark-blue);
 }
 
