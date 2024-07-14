@@ -4,6 +4,16 @@
 body {
     color: white;
     background: var(--very-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 412px;
+    height: 416px;
+    background: var(--black-gradient);
+    border-radius: 30px;
 }
 
 footer {
