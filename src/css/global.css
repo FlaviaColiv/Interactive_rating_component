@@ -10,7 +10,8 @@
 
     --size-paragraph: 15px;
     --family: [Overpass](https://fonts.google.com/specimen/Overpass);
-    --weights: 400, 700;
+    --weights1: 400;
+    --weights2: 700;
 
     --mobile: 375px;
     --desktop: 1440px;
