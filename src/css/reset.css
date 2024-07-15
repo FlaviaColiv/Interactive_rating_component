@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: none;
+    font-family: var(--family);
+    color: var(--branco);
 }
 
-section {
+/* section {
     display: none;
-}
+} */
