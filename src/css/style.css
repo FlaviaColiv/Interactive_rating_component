@@ -18,6 +18,14 @@ body {
     padding: 32px;
 }
 
+.card {
+    display: none;
+}
+
+.card.ativo {
+    display: block;
+}
+
 .card img {
     padding: 16px;
     border-radius: 50%;
@@ -34,6 +42,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 24px;
+    line-height: 1.5;
 }
 
 .card .buttons {
@@ -51,6 +60,17 @@ body {
     color: var(--numero);
 }
 
+.card .buttons button:hover {
+    background-color: var(--gray);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.card .buttons button.selected {
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+
 .card .btn-submit {
     background: var(--laranja);
     display: block;
@@ -62,11 +82,50 @@ body {
     font-weight: 700;
 }
 
+.card .btn-submit:hover {
+    cursor: pointer;
+    background: var(--branco);
+    color: var(--laranja);
+}
+
 .thank-you {
-    display: flex;
+    display: none;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.ativo {
+    display: flex;
+}
+
+.thank-you img {
+    margin-top: 13px;
+    margin-bottom: 36px;
+}
+
+.thank-you span {
+    color: var(--laranja);
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 22.5px;
+    background: var(--estrela);
+    padding: 5px 21px;
+    margin-bottom: 33px;
+}
+
+.thank-you h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.thank-you p {
+    color: var(--gray);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    width: 340px;
+    line-height: 1.8;
 }
 
 footer {

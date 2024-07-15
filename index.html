@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    <main class="card">
+    <main class="card ativo">
         <img src="./src/images/icon-star.svg" alt="Icon Star">
         <h1>How did we do?</h1>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
@@ -22,16 +22,17 @@
             <button>4</button>
             <button>5</button>
         </div>
-        <form>
-            <button type="submit" class="btn-submit"><a href="./src/pages/thank-you.html">Submit</a></button> 
+        <form id="form">
+            <button type="submit" class="btn-submit">Submit</button> 
         </form>
     </main>
     <section class="thank-you">
         <img src="./src/images/illustration-thank-you.svg" alt="illustration-thank-you">
-        <span class="span">You selected 4 out of 5</span>
+        <span class="span" id="selecionado">You selected 4 out of 5</span>
         <h3>Thank you!</h3>
         <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </section>
+    <script src="./src/js/index.js"></script>
 </body>
 <!-- <footer>
     <div class="attribution">
