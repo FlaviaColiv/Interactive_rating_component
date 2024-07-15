@@ -2,7 +2,6 @@
 @import url('./global.css');
 
 body {
-    color: white;
     background: var(--very-dark-blue);
     display: flex;
     justify-content: center;
@@ -12,6 +11,7 @@ body {
 }
 
 .card {
+    font-family: var(--family);
     width: 412px;
     height: 416px;
     background: var(--black-gradient);
@@ -20,10 +20,35 @@ body {
 }
 
 .card img {
-    padding: 15px;
+    padding: 16px;
     border-radius: 50%;
     background-color: var(--estrela);
 }
+
+.card h1 {
+    color: var(--branco);
+    font-size: 28px;
+    margin: 30px 0px 7px;
+}
+
+.card p {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.card .buttons {
+    display: flex;
+    gap: 22px;
+    justify-content: space-between;
+}
+
+.card .buttons button {
+    padding: 15px;
+    border-radius: 50%;
+}
+
 
 footer {
     color: white;
