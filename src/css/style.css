@@ -7,6 +7,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    padding: 30px;
 }
 
 .card {
@@ -14,6 +16,13 @@ body {
     height: 416px;
     background: var(--black-gradient);
     border-radius: 30px;
+    padding: 32px;
+}
+
+.card img {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--estrela);
 }
 
 footer {
